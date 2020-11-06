@@ -24,7 +24,7 @@ const redirect2 = () => {
         Nov : ['11', 'november'],
         Dec : ['12', 'disember']
     }
-    window.open(`https://kpkesihatan.com/${time[2]}/${montMapper[`${time[1]}`][0]}/${time[0]}/kenyataan-akhbar-kpk-${montMapper[`${time[1]}`][1]}-${montMapper[`${time[1]}`][1]}-${time[2]}-situasi-semasa-jangkitan-penyakit-coronavirus-2019-covid-19-di-malaysia/`, '_blank')
+    window.open(`https://kpkesihatan.com/${time[2]}/${montMapper[`${time[1]}`][0]}/${time[0]}/kenyataan-akhbar-kpk-${montMapper[`${time[1]}`][0]}-${montMapper[`${time[1]}`][1]}-${time[2]}-situasi-semasa-jangkitan-penyakit-coronavirus-2019-covid-19-di-malaysia/`, '_blank')
 }
 
 return(
